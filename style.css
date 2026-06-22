@@ -1,50 +1,55 @@
-:root{
-    --green:#00ff00;
-    --white:#ffffff;
-    --black:#000000;
-    --fontColor:var(--black);
-    --fontColor: var(--green);
-    --bg:var(--black);
-    --bg:var(--green);
+:root {
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
 
 }
-*{
-     font-family: monospace;
-} 
 
-body{
-   background-color: var(--bg);
+* {
+    font-family: Helvetica;
+    color: var(--fontColor);
 }
-ul{
-font-family: Helvetica;
+
+body {
+    background-color: var(--bg);
 }
-li{
+
+ul {
+    font-family: Helvetica;
+}
+
+li {
     list-style: circle;
 }
-.list{
+
+.list {
     list-style: square;
 }
-#msg{
+
+#msg {
     font-family: monospace;
 }
-.light-theme{
-     --bg: var(--green);
+
+.light-theme {
+    --bg: var(--green);
     --fontColor: var(--black);
-    --bntBg: var(--black);
+    --btnBg: var(--black);
     --btnFontColor: var(--white);
 }
-.dark-theme{
+
+.dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
-    --bntBg: var(--white);
+    --btnBg: var(--white);
     --btnFontColor: var(--black);
-
 }
-.bnt{
-    color:var(--btnFontColor);
+
+.btn {
+    color: var(--btnFontColor);
     background-color: var(--btnBg);
 }
-.bnt{
+
+.btn {
     position: absolute;
     top: 20px;
     left: 250px;
@@ -55,6 +60,7 @@ li{
     color: var(--btnFontColor);
     background-color: var(--btnBg);
 }
-.bnt:focus{
+
+.btn:focus {
     outline-style: none;
 }
